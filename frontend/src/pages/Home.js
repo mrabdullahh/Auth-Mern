@@ -36,7 +36,8 @@ export const Home = () => {
   }, []);
   return (
     <div>
-      <h1>{loggedInUser}</h1>;<button onClick={handleLogout}>LogOut</button>;
+      <h1>Hello {loggedInUser}</h1>
+      <button onClick={handleLogout}>Logout</button>
       <div>
         {products &&
           products?.map((item, index) => (
