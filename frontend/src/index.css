@@ -62,10 +62,64 @@ body {
 button {
   background-color: purple;
   border: none;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   border-radius: 5px;
-  padding: 10px;
+  padding: 8px;
   cursor: pointer;
   margin: 10px 0;
+}
+
+.user-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Minimal styling for the expense list */
+.expense-list {
+  font-family: Arial, sans-serif;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.expense-description {
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 4px 7px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.amounts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.income-amount {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.expense-amount {
+  color: #c0392b;
+  font-weight: bold;
 }

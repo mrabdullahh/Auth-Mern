@@ -3,7 +3,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Login } from "./pages/Login.js";
 import { Signup } from "./pages/Signup.js";
-import { Home } from "./pages/Home.js";
+import Home from "./pages/Home.js";
 import { RefreshHandler } from "./RefreshHandler.js";
 
 function App() {
