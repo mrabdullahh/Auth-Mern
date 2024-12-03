@@ -27,7 +27,7 @@ export const Signup = () => {
       return handleError("Name, Email and Password are required");
     }
     try {
-      const url = "http://localhost:5000/auth/signup";
+      const url = "https://expense-tracker-api-orpin.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
