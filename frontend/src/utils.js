@@ -12,4 +12,4 @@ const handleError = (msg) => {
 };
 
 export { handleError, handleSuccess };
-export const APIUrl = process.env.REACT_APP_API_URL || "http://localhost:5000";
+export const APIUrl = process.env.REACT_APP_API_URL || "https://expense-tracker-api-orpin.vercel.app/";
